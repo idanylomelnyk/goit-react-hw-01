@@ -1,0 +1,78 @@
+.card {
+  width: 240px;
+  border: 2px solid #2a2a2a;
+  border-radius: 8px;
+}
+
+.info {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #2a2a2a;
+}
+
+.name {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tag,
+.location {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #808080;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 2px solid #808080;
+  background-color: #d3d3d3;
+  border-radius: 0 0 8px 8px;
+}
+
+.item {
+  width: 100px;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.item:not(:last-child) {
+  border-right: 2px solid #808080;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.number {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+}
